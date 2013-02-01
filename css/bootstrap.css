@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@import url('//fonts.googleapis.com/css?family=Arvo:400,700');
 /*!
  * Bootstrap v2.2.2
  *
@@ -206,7 +206,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #555555;
@@ -603,7 +603,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -5468,4 +5468,46 @@ i[class^="icon-"] {
 }
 .affix {
   position: fixed;
+}
+
+
+/* additional classes */
+.block {
+  text-align: center;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/*********************/
+.block a i {
+  color: #BF3F3F;
+  text-decoration : none;
+  padding-top : 10px;
+}
+.block a:hover {
+  text-decoration : none;
+}
+i:hover {
+  opacity : 1;
+  text-decoration : none;
+  color : black;
+}
+
+#main-text {
+  font-size : 16px;
 }

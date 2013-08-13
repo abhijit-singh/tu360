@@ -1,0 +1,12 @@
+README
+------------- local --------------------------------
+- nginx www location is : /usr/share/nginx/www/
+- conf is : /etc/nginx/nginx.conf
+- edit sites_enabled for server root configuration and the like
+- nginx server is running on 8080
+----------------------------------------------------
+
+------------- mridulaws ----------------------------
+- nginx www : /usr/share/nginx/html/
+- conf : 
+----------------------------------------------------
